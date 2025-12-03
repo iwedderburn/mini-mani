@@ -1,6 +1,5 @@
 // === MINI MANI WIDGET ===
-// Add this script to any website: <script src="https://YOURDOMAIN.com/mini-mani.js"></script>
-
+// Add this script to any website: <script src="https://iwedderburn.github.io/mini-mani/mini-mani.js"></script>
 (function () {
     // Create the button
     const bubble = document.createElement("div");
@@ -56,7 +55,7 @@
                 method: "POST",
                 headers: {
                     "Content-Type": "application/json",
-                    "Authorization": "Bearer YOUR_API_KEY_HERE"
+                    "Authorization": "Bearer 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"
                 },
                 body: JSON.stringify({
                     model: "gpt-4o-mini",
